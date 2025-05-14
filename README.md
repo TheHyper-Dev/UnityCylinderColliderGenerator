@@ -1,6 +1,8 @@
 # Unity Cylinder Collider Generator
 An editor script that allows you to create and optionally save cylinder colliders with adjustable variables, using the mesh collider component.
 
+Unity's Physx is missing the cylinder shape as one of the primitive collision shapes, which is still kinda crazy to me considering how popular the engine is.
+
 I've seen some "cylinder collider" plugins where they create many, many box colliders just to simulate a cylinder, I thought that was horribly unoptimized and ridiculous so I've come up with this.
 
 
