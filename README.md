@@ -1,9 +1,14 @@
 # Unity Cylinder Collider Generator
-An editor script that allows you to create and optionally save cylinder colliders with adjustable variables
-CTRL+Z and CTRL+Y undo/redo actions are supported.
+An editor script that allows you to create and optionally save cylinder colliders with adjustable variables, using the mesh collider component.
 
-You don't need the script to keep the collider working, it's simply a mesh creator/modifier that you can remove after being done with it.
+I've seen some "cylinder collider" plugins where they create many, many box colliders just to simulate a cylinder, I thought that was horribly unoptimized and ridiculous so I've come up with this.
 
+
+Things to note:
+* CTRL+Z and CTRL+Y undo/redo actions are supported.
+* You don't need the script to keep the collider working, it's simply a mesh creator/modifier that you can remove after being done with it.
+* Make sure to toggle on the "Convex" option for better physics performance
+  
 ![image](https://github.com/user-attachments/assets/fe5ae3d1-eeab-411e-a959-cb5b0b64aa83)
 
 Using the saved collider (it's a mesh .asset file)
